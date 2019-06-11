@@ -1,0 +1,68 @@
+body{
+    padding-top: 10px;
+}
+.color-white{
+    color: white;
+}
+body .card-header-row{
+    margin-bottom: 0;
+}
+body .dropdown-content{
+    min-width: max-content;
+    left: 50% !important;
+}
+.year-title{
+    font-size: 21px;
+}
+a.btn-aliceblue, button.btn-aliceblue{
+    background: aliceblue;
+    color: #2c2c2c;
+}
+@media screen and (max-width: 767px){
+    body .dropdown-content{
+        left: 0% !important;
+    }
+    .dropdown-trigger{
+        max-width: 100px;
+        white-space: nowrap; 
+        /* width: 50px;  */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+/* .calendar-month-title{
+    line-height: 36px;
+} */
+.calendar-table tbody tr td{
+    height: 100px;
+    cursor: pointer;
+}
+.calendar-table tbody tr td.today{
+    background: lightblue;
+}
+.arrow-links, .arrow-links:hover, .arrow-links:active{
+    color: white;
+    line-height: 34px;
+}
+.dropdown-menu{
+    padding: 10px;
+}
+table.calendar-table tbody tr td.selected-date{
+    background: yellow;
+}
+
+@media screen and (max-width: 767px){
+    button.dropdown-toggle, button.btn-mobile{
+        max-width: 120%;
+        font-size: 12px;
+    }
+    button.dropdown-toggle::after{
+        display: none;
+    }
+    .table-responsive{
+        width: 120%;
+    }
+    .table-responsive>.table-bordered{
+        width: 250%;
+    }
+}
